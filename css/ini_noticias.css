@@ -1,0 +1,122 @@
+#noticias {
+          display:flex;
+          width: 100%;
+          font-family: American;
+          color: #656464;
+          background: #fff;
+          
+}
+
+#notcontainer {
+          width: 100%;
+          
+          margin-top: 20px;
+          background: #ffaa0e;
+          margin-bottom: 10px;
+          padding: 3px;
+}
+
+#notcontainer .not1, .not2, .not3, a {
+          font-family: Josefin_reg;
+    color:#006bbe;
+    font-size: 14px; 
+    
+   
+}
+.cabecera__not {
+          font-size: 20px;
+          
+          font-family: arial;
+          font-weight: 500;
+          color: #434447;
+          text-decoration: none;
+          
+          
+}
+.cabecera__not:hover {
+          font-size: 20px;
+          font-family: arial;
+          font-weight: 500;
+          color: blue;
+          text-decoration: underline;
+          cursor: pointer;
+          
+          
+}
+#noticias .barra_not {
+          float: left;
+          width: 5px;
+          height: 30px;
+          margin-left: 2px;
+          margin-right: 10px;
+}
+#noticias .{
+    width: 100%;
+    align-content: center;
+    
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#noticias h1 {
+    margin-top: 20px;
+    font-family:Josefin_reg;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 0px;
+    color: #47484b;
+ 
+}
+#noticias  h2 {
+          font-family: arial;
+          font-weight: 500;
+          color: #434447;
+ 
+    
+}
+#noticias h3 {
+    font-family: arial;
+    font-size: 12px;
+    font-weight: 300;
+    
+}
+#noticias h5 {
+    font-weight: 300;
+          color: #434447;
+    
+    
+}
+
+         
+}
+#noticias .titu{
+    
+    display:flex;
+    width: 100%;
+    height: 50px;
+    
+}
+
+#noticias .not1 {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    margin-left: 2% ;
+    
+ }
+
+
+#noticias .not2 {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    margin-left: 35%;
+    
+ }
+#noticias .not3 {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    margin-left: 68%;
+    
+ }

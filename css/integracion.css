@@ -1,0 +1,167 @@
+@import url('barra_nav_2.css');
+@import url(footer.css);
+
+
+@font-face{
+    font-family: Josefin_Reg;
+    src: url(../fonts/Josefin_Sans/JosefinSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: American;
+    src: url(../fonts/American/american.ttf);
+}
+
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+         
+          
+}
+
+.contentpie {
+          position: relative;
+          width: 90%;
+          margin: auto;
+          margin-top: 120px;
+           font-family: American;
+          top:-100px;
+
+          
+}
+
+.cabecera{
+          display: flex;
+          position: relative;
+          flex-direction: column;
+          justify-content: center;
+          align-items:flex-start;
+          font-family: josefin_reg;
+          margin-bottom: 60px;
+}
+.cabecera h1 {
+          
+          font-size: 40px;
+          color: #555555;
+}
+.cabecera h2{
+          font-size: 20px;
+          color: #444444;
+}
+
+.cabecera img {
+          height: 20px;
+          width: 5px;
+           margin-right: 5px;
+          overflow: hidden;
+}
+.aporta {
+          display: flex;
+          position: relative;
+          width: 100%;
+          height: auto;
+          align-items: center;
+          justify-content: center;
+}
+.aportacero {
+          
+          display: flex;
+          width: auto;
+          flex-direction: row;
+          align-items: center;
+          margin-right: 10%;
+          
+          
+}
+.aporta h1 {
+          font-size: 40px;
+}
+.aporta span {
+          font-size: 60px;
+          color: #ef9c00;
+}
+.aportauno{
+          display: flex;
+          position: relative;
+          flex-direction: row;
+          justify-content: center;
+          align-content: center;
+}
+.aportauno p{
+                    width: 40%;
+          height: 100%;
+          font-size: 20px;
+          font-weight: bold;
+          margin-left: 10%;
+          margin-top: 5%;
+}
+.importante{
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-content: center;
+          flex-direction: row;
+}
+
+.importantecero {
+          display: flex;
+          width: auto;
+          flex-direction: row;
+          align-items: center;
+          margin-right: 10%;
+}
+
+.importante span {
+          color: #cd578b;
+          font-size: 60px;
+}
+.importante h1 {
+          font-size: 40px;
+}
+
+.importanteuno {
+          position: relative;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          margin-top: 10px;
+}
+.importanteuno p {
+          font-size: 20px;
+          width: 40%;
+          margin-left: 10%;
+          font-weight: bold;
+}
+.necesidades {
+          display: flex;
+          position: relative;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+}
+.necesidadescero {
+          display: flex;
+          align-items: center;
+          margin-right: 20%;
+          font-size: 25px;
+}
+.necesidadescero span{
+          color: #3167a3;
+          font-size: 60px;
+          
+}
+.necesidadesuno{
+          display: flex;
+          position: relative;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+}
+.necesidadesuno p {
+          width: 40%;
+          font-size: 20px;
+          font-weight: bold;
+          margin-left:10%;
+}

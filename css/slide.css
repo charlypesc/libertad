@@ -1,0 +1,58 @@
+ .main {
+ width: 100%;
+ max-width: 100%;
+ margin:0px auto;
+ min-width: 720px;
+
+
+ 
+
+}
+.slides {
+	width: 100%;
+	 
+}
+.slides img {
+	width: 100%;
+}
+.slidesjs-pagination {
+    display: none;
+	background: #424242;
+	list-style: none;
+	overflow: hidden;
+}
+.slidesjs-pagination li {
+    display: none;
+	float:left;
+
+}
+.slidesjs-pagination li a {
+	/*lo vamos a sacar display: block;*/
+    display: none;
+	padding:12px 15px;
+	color:#fff;
+	text-decoration: none;
+
+}
+.slidesjs-pagination li a:hover {
+    display: none;
+	/*background: #000;*/
+
+}
+
+
+
+.slides .active {
+    display: none;
+	background: #000;
+}
+.slidesjs-navigation {
+	background: #000;
+	color:#fff;
+	text-decoration: none;
+    display: none;
+	/*display: inline-block;*/
+	/*padding:13.5px	20px;*/
+	float:right;
+
+}

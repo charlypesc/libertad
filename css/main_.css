@@ -1,0 +1,283 @@
+          
+
+
+/*CORRESPONDE A DICCIONARIO PUEBLOS ORIGINARIOS. */
+
+
+
+
+@import url();
+
+* {
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 960px;
+    margin: auto;
+    box-shadow: 0px 0px 12px 0px #505050;
+}
+/*--------------------------- Head---------------------------*/
+#logo {
+    width: 100%;
+    height: 120px;
+background: rgba(2,58,90,1);
+background: -moz-linear-gradient(left, rgba(2,58,90,1) 0%, rgba(4,85,112,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(2,58,90,1)), color-stop(100%, rgba(4,85,112,1)));
+background: -webkit-linear-gradient(left, rgba(2,58,90,1) 0%, rgba(4,85,112,1) 100%);
+background: -o-linear-gradient(left, rgba(2,58,90,1) 0%, rgba(4,85,112,1) 100%);
+background: -ms-linear-gradient(left, rgba(2,58,90,1) 0%, rgba(4,85,112,1) 100%);
+background: linear-gradient(to right, rgba(2,58,90,1) 0%, rgba(4,85,112,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#023a5a', endColorstr='#045570', GradientType=1 );
+    
+    
+    
+    margin-bottom: auto;
+
+}
+#logo .escuela{
+    line-height: 150px;
+    width: 50%;
+    height: 100%;
+    float: left;
+    font-family: Josefin Sans;
+    color:#bbb;
+    font-size: 50px;
+    margin-left: 15px;
+    position: relative;
+    float: left;
+    
+}
+
+#logo .thumb{
+    width: 30%;
+    position:relative;
+    float: right;
+    line-height: 18px;
+    
+
+    
+}
+#logo .thumb img {
+    height: 110px;
+    margin-left: 50%;
+}
+
+
+header {
+	margin-top:0px;
+    margin-bottom: auto;
+    width: 100%;
+    overflow: hidden;
+    height: 60px;
+    position: relative;
+    
+}
+ 
+nav {
+    top:-20px;
+    position: absolute;
+    left:0;
+    right:0;
+	margin:20px auto;
+	max-width:960px;
+	min-width:50%;
+    font-family: montserrat;
+    font-size: 12px;
+}
+ 
+nav ul {
+	list-style:none;
+}
+ 
+nav > ul {
+	display:table;
+	/*Quitamos el overflow hidden que estaba aqui*/
+	width:100%;
+	background:#000;
+	position:relative;
+}
+ 
+nav > ul li {
+	display:table-cell;
+}
+ 
+/*Sub-menu*/
+nav > ul > li:hover > ul {
+	display:block;
+	height:100%;
+}
+ 
+nav > ul > li > ul {
+	display:block;
+	position:absolute;
+	background:#000;
+	left:0;
+	right:0;
+	overflow:hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul li a {
+	color:#fff;
+	display:block;
+	line-height:20px;
+	padding:20px;
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul > li > ul > li a:hover {
+	background:#5da5a2;
+}
+ 
+nav > ul > li > a span {
+	background:#174459;
+	display:block;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	top:-55px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul > li > a span .icon {
+	display:block;
+	line-height:60px;
+}
+ 
+nav > ul > li > a:hover > span {
+	top:0;
+}
+ 
+/*Colores*/
+nav ul li a .primero {
+	background:#0e5061;
+}
+ 
+nav ul li a .segundo {
+	background:#5da5a2;
+}
+ 
+nav ul li a .tercero {
+	background:#f25724;
+}
+ 
+nav ul li a .cuarto {
+	background:#174459;
+}
+ 
+nav ul li a .quinto {
+	background:#37a4d9;
+}
+
+
+/*-------------------------------------------------------- secciones--------------------------------------------------------*/
+
+#wrap {
+    width: 960px;
+    margin:auto;
+    background: #ebeaea;
+  
+}
+
+#wrap .inicio{
+    margin-top: 0px;
+    height: 400px;
+    align-content: center;
+    overflow: hidden;
+    
+} 
+#wrap .inicio img {
+    max-width:100%;
+    
+    
+}
+#wrap .bienvenidos {
+
+    min-width: 100%;
+    text-align: left;
+    margin-left: 0px;
+    padding: 15px;
+    
+}
+h1{
+    font-family:poppins;
+    font-size: 20px;
+    color:#6c6c6c;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+h1 span {
+    font-family: josefin sans;
+    font-size: 50px;
+    color: #176fba;
+}
+
+
+h2, h3, p   {
+   
+    font-family:poppins;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#787878;
+}
+
+#wrap .info {
+    width: 60%;
+     padding: 15px;
+}
+
+
+/*-------------------------------Footer-------------------------------*/
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    
+}
+
+footer .dir {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
+    padding: 15px;
+    font-family: josefin sans;
+    font-size: 13px;
+
+}
+footer .redes {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-top: 25px;
+    padding-left: 40px;
+
+}
+
+footer section a {
+    text-decoration: none;
+    color:#515151;
+    font-size:30px;
+    margin: 10%;
+    }

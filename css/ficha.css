@@ -1,0 +1,130 @@
+@font-face{
+    font-family: Josefin_Reg;
+    src: url(../fonts/Josefin_Sans/JosefinSans-Regular.ttf);
+}
+@font-face{
+    font-family: Lakki_Reg;
+    src: url(../fonts/Lakki_Reddy/LakkiReddy.ttf);
+}
+@font-face{
+    font-family: HandSign;
+    src: url(../fonts/Hand/HandSign.ttf);
+}
+@font-face{
+    font-family: American;
+    src: url(../fonts/american/american.ttf);
+}
+
+#wrapficha {
+    min-width: 1000px;
+    width: 100%;
+    height: 100%;
+    padding-top:130px;
+    
+    
+   
+}
+
+#content1 {
+    width: 50%;
+    position: relative;
+    float: left;
+    
+
+}
+
+#content2 {
+       width: 50%;
+    position: relative;
+    float: left;
+    
+}
+
+#content2 video {
+    
+    width: 90%;
+    position: relative;
+    float: left;
+    margin-top: 194px;
+    margin-left: 30px;
+    
+}
+
+
+
+
+
+.dac1 {
+    position: relative;
+    float: none;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-family: HandSign;
+    font-size: 40px;
+    text-shadow: 1px 1px 4px #d0cece;
+    color:#333333;    
+    
+}
+    
+
+    
+.dac2 {
+    position:relative;
+    float: none;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: American;
+    font-size:50px;
+    color:#015694 ;
+    text-shadow: 0px 5px 7px #999393;
+    
+    
+    
+}
+.dac3 {
+     position:relative;
+    float: none;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: American;
+    font-size: 20px;
+    padding-right: 20px;
+    color: 656464;
+    
+
+    
+}
+.dac3ParrLar {
+     position:relative;
+    float: none;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: American;
+    font-size: 20px;
+    padding-right: 10px;
+    
+
+    
+}
+
+.pic1 img {
+    width: 70%;    
+    height: auto;
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 8px;
+}
+.pic2 img{
+    margin-left: 25%;   
+    width: 50%;    
+    height: auto;
+    margin-top: 30px;
+    border-radius: 8px;
+  
+}
+    

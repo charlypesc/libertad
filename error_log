@@ -1,0 +1,120 @@
+[02-Aug-2018 16:00:28 UTC] PHP Warning:  include(/administracion/conexion.php): failed to open stream: No such file or directory in /home/eliberta/public_html/index2.php on line 73
+[02-Aug-2018 16:00:28 UTC] PHP Warning:  include(): Failed opening '/administracion/conexion.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/eliberta/public_html/index2.php on line 73
+[02-Aug-2018 16:00:28 UTC] PHP Warning:  include(/administracion/config.php): failed to open stream: No such file or directory in /home/eliberta/public_html/index2.php on line 75
+[02-Aug-2018 16:00:28 UTC] PHP Warning:  include(): Failed opening '/administracion/config.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/eliberta/public_html/index2.php on line 75
+[02-Aug-2018 16:00:28 UTC] PHP Notice:  Undefined variable: base in /home/eliberta/public_html/index2.php on line 77
+[02-Aug-2018 16:00:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/eliberta/public_html/index2.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/eliberta/public_html/index2.php on line 77
+[02-Aug-2018 16:00:33 UTC] PHP Warning:  include(/administracion/conexion.php): failed to open stream: No such file or directory in /home/eliberta/public_html/index2.php on line 73
+[02-Aug-2018 16:00:33 UTC] PHP Warning:  include(): Failed opening '/administracion/conexion.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/eliberta/public_html/index2.php on line 73
+[02-Aug-2018 16:00:33 UTC] PHP Warning:  include(/administracion/config.php): failed to open stream: No such file or directory in /home/eliberta/public_html/index2.php on line 75
+[02-Aug-2018 16:00:33 UTC] PHP Warning:  include(): Failed opening '/administracion/config.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/eliberta/public_html/index2.php on line 75
+[02-Aug-2018 16:00:33 UTC] PHP Notice:  Undefined variable: base in /home/eliberta/public_html/index2.php on line 77
+[02-Aug-2018 16:00:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/eliberta/public_html/index2.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/eliberta/public_html/index2.php on line 77
+[02-Aug-2018 16:00:35 UTC] PHP Warning:  include(/administracion/conexion.php): failed to open stream: No such file or directory in /home/eliberta/public_html/index2.php on line 73
+[02-Aug-2018 16:00:35 UTC] PHP Warning:  include(): Failed opening '/administracion/conexion.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/eliberta/public_html/index2.php on line 73
+[02-Aug-2018 16:00:35 UTC] PHP Warning:  include(/administracion/config.php): failed to open stream: No such file or directory in /home/eliberta/public_html/index2.php on line 75
+[02-Aug-2018 16:00:35 UTC] PHP Warning:  include(): Failed opening '/administracion/config.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/eliberta/public_html/index2.php on line 75
+[02-Aug-2018 16:00:35 UTC] PHP Notice:  Undefined variable: base in /home/eliberta/public_html/index2.php on line 77
+[02-Aug-2018 16:00:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/eliberta/public_html/index2.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/eliberta/public_html/index2.php on line 77
+[02-Aug-2018 16:00:47 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/eliberta/public_html/administracion/config.php on line 16
+[02-Aug-2018 16:02:39 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/eliberta/public_html/administracion/config.php on line 16
+[02-Aug-2018 16:15:10 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/eliberta/public_html/administracion/config.php on line 16
+[02-Aug-2018 16:18:12 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/eliberta/public_html/administracion/config.php on line 16
+[02-Aug-2018 16:18:33 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/eliberta/public_html/administracion/config.php on line 16
+[02-Aug-2018 16:19:01 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/eliberta/public_html/administracion/config.php on line 16
+[02-Aug-2018 16:20:37 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/eliberta/public_html/administracion/config.php on line 16
+[02-Aug-2018 16:21:21 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/eliberta/public_html/administracion/config.php on line 16
+[02-Aug-2018 16:21:57 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/eliberta/public_html/administracion/config.php on line 16
+[02-Aug-2018 16:22:17 UTC] PHP Warning:  include(/administracion/conexion.php): failed to open stream: No such file or directory in /home/eliberta/public_html/index2.php on line 74
+[02-Aug-2018 16:22:17 UTC] PHP Warning:  include(): Failed opening '/administracion/conexion.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/eliberta/public_html/index2.php on line 74
+[02-Aug-2018 16:22:17 UTC] PHP Notice:  Undefined variable: base in /home/eliberta/public_html/index2.php on line 78
+[02-Aug-2018 16:22:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/eliberta/public_html/index2.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/eliberta/public_html/index2.php on line 78
+[02-Aug-2018 16:26:24 UTC] PHP Warning:  include(/administracion/conexion.php): failed to open stream: No such file or directory in /home/eliberta/public_html/index2.php on line 74
+[02-Aug-2018 16:26:24 UTC] PHP Warning:  include(): Failed opening '/administracion/conexion.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/eliberta/public_html/index2.php on line 74
+[02-Aug-2018 16:26:24 UTC] PHP Notice:  Undefined variable: base in /home/eliberta/public_html/index2.php on line 78
+[02-Aug-2018 16:26:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/eliberta/public_html/index2.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/eliberta/public_html/index2.php on line 78
+[02-Aug-2018 16:30:27 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/eliberta/public_html/administracion/config.php on line 16
+[02-Aug-2018 16:32:37 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/eliberta/public_html/administracion/config.php on line 16
+[02-Aug-2018 16:33:10 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/eliberta/public_html/administracion/config.php on line 16
+[02-Aug-2018 16:33:40 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[02-Aug-2018 16:33:40 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[02-Aug-2018 16:38:02 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[02-Aug-2018 16:38:02 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[02-Aug-2018 16:38:11 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[02-Aug-2018 16:38:11 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[02-Aug-2018 16:54:04 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[02-Aug-2018 16:54:04 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[02-Aug-2018 17:03:28 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[02-Aug-2018 17:03:28 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[02-Aug-2018 17:03:48 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[02-Aug-2018 17:03:48 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[02-Aug-2018 17:03:51 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[02-Aug-2018 17:03:51 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[02-Aug-2018 17:03:56 UTC] PHP Parse error:  syntax error, unexpected '$hosting' (T_VARIABLE), expecting ',' or ')' in /home/eliberta/public_html/administracion/conexion.php on line 9
+[02-Aug-2018 17:04:19 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/eliberta/public_html/administracion/conexion.php on line 9
+[02-Aug-2018 17:04:40 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[02-Aug-2018 17:04:40 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[02-Aug-2018 18:02:27 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[02-Aug-2018 18:02:27 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 15:03:05 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 15:03:05 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 15:04:23 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 15:04:23 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 15:08:58 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 15:08:58 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 15:13:26 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 15:13:26 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 15:16:39 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 15:16:39 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 15:22:36 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 15:22:36 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 16:04:14 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 16:04:14 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 16:23:44 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 16:23:44 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 16:26:04 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 16:26:04 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 16:30:20 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 16:30:20 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index2.php on line 84
+[03-Aug-2018 16:43:36 UTC] PHP Notice:  Undefined variable: not in /home/eliberta/public_html/index.php on line 84
+[03-Aug-2018 16:43:36 UTC] PHP Notice:  Trying to get property 'fecha' of non-object in /home/eliberta/public_html/index.php on line 84
+[03-Aug-2018 17:07:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'eliberta_noticias.aviso' doesn't exist in /home/eliberta/public_html/index.php:57
+Stack trace:
+#0 /home/eliberta/public_html/index.php(57): PDOStatement->execute()
+#1 {main}
+  thrown in /home/eliberta/public_html/index.php on line 57
+[03-Aug-2018 17:07:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'eliberta_noticias.aviso' doesn't exist in /home/eliberta/public_html/index.php:57
+Stack trace:
+#0 /home/eliberta/public_html/index.php(57): PDOStatement->execute()
+#1 {main}
+  thrown in /home/eliberta/public_html/index.php on line 57
+[03-Aug-2018 17:08:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'eliberta_noticias.aviso' doesn't exist in /home/eliberta/public_html/index2.php:57
+Stack trace:
+#0 /home/eliberta/public_html/index2.php(57): PDOStatement->execute()
+#1 {main}
+  thrown in /home/eliberta/public_html/index2.php on line 57
+[03-Aug-2018 17:10:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'eliberta_noticias.aviso' doesn't exist in /home/eliberta/public_html/index.php:57
+Stack trace:
+#0 /home/eliberta/public_html/index.php(57): PDOStatement->execute()
+#1 {main}
+  thrown in /home/eliberta/public_html/index.php on line 57
+[03-Aug-2018 17:10:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'eliberta_noticias.aviso' doesn't exist in /home/eliberta/public_html/index.php:57
+Stack trace:
+#0 /home/eliberta/public_html/index.php(57): PDOStatement->execute()
+#1 {main}
+  thrown in /home/eliberta/public_html/index.php on line 57

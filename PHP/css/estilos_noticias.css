@@ -1,0 +1,40 @@
+*{
+          margin: 0;
+          top:0;
+          
+}
+
+body {
+          font-family: arial;
+          width: 100%;
+}
+
+.wrap {
+          max-width: 720px;
+          margin: auto;
+}
+
+
+
+h1 {      
+          font-family: arial;
+          font-size: 35px;
+          color: darkorange;
+          margin-top: 10px;
+          
+}
+h2 {
+          font-family: arial;
+          font-size: 25px;
+          color: darkorange;
+          margin-top: 10px;
+}
+
+h3 {
+          font-size: 14px;
+          color: dimgrey;
+          margin-top: 20px;
+          
+}
+
+

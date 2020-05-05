@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/historia.css">
+  </head>
+  <body id="history">
+    <div class="modal" id="img1">
+      <div class="imagen"><a href="#img6"><span class="icon-chevron-left"> </span></a><img src="img/historia/IMG_0001.jpg" alt=""><a href="#img2"><span class="icon-chevron-right"></span></a></div><a class="cerrar" href="">x</a>
+    </div>
+    <div class="modal" id="img2">
+      <div class="imagen"><a href="#img1"><span class="icon-chevron-left"> </span></a><img src="img/historia/IMG_0002.jpg" alt=""><a href="#img3"><span class="icon-chevron-right"></span></a></div><a class="cerrar" href="">x</a>
+    </div>
+    <div class="modal" id="img3">
+      <div class="imagen"><a href="#img2"><span class="icon-chevron-left"> </span></a><img src="img/historia/IMG_0003.jpg" alt=""><a href="#img4"><span class="icon-chevron-right"></span></a></div><a class="cerrar" href="">x</a>
+    </div>
+    <div class="modal" id="img4">
+      <div class="imagen"><a href="#img3"><span class="icon-chevron-left"> </span></a><img src="img/historia/IMG_0004.jpg" alt=""><a href="#img5"><span class="icon-chevron-right"></span></a></div><a class="cerrar" href="">x</a>
+    </div>
+    <div class="modal" id="img5">
+      <div class="imagen"><a href="#img4"><span class="icon-chevron-left"> </span></a><img src="img/historia/IMG_0005.jpg" alt=""><a href="#img6"><span class="icon-chevron-right"></span></a></div><a class="cerrar" href="">x</a>
+    </div>
+    <div class="modal" id="img6">
+      <div class="imagen"><a href="#img5"><span class="icon-chevron-left"> </span></a><img src="img/historia/IMG_0000.jpg" alt=""><a href="#img1"><span class="icon-chevron-right"></span></a></div><a class="cerrar" href="">x</a>
+    </div>
+    <div class="banner1"></div>
+    <div class="banner2"></div>
+    
+    <?php
+
+          include "header_secundario.php";  
+
+          ?>
+
+    <div class="wrap">
+      <div class="tabfechas">
+        <h1>1972</h1>
+        <li>Inicio de la escuela como Anexo de la Escuela 82</li>
+        <li>Creación como Escuela nº 96</li>
+        <li>Se ubicaba inicialmente en Población Panamericana</li>
+        <h1>1977</h1>
+        <li>En Marzo de 1977 se traslada a calle Avelino Bravo</li>
+        <h1>1978</h1>
+        <li>Se efectúa la primera Licenciatura</li>
+        <li>Se le asigna el número a Escuela F-N Nº735</li>
+        <h1>1987</h1>
+        <li>Asume como Director don Jorge Águila Silva</li>
+        <h1>1989</h1>
+        <li>Se crea el taller Corte y Confección</li>
+        <li>Se crea el taller Electromecánica</li>
+        <h1>1993</h1>
+        <li>Se crea el taller Tecnología en Madera</li>
+        <li>Se adquiere la denominación "Escuela Libertad.</li>
+        <h1>2000</h1>
+        <li>Se incorporan definitivamente al curriculum nuestros Planes Y Programas Propios en el sector Tecnológico.</li>
+        <h1>2004</h1>
+        <li>Se comienza la construcción del nuevo edificio.</li>
+        <li>A mediados de este año el presidente de la época, don Ricardo Lagos Escobar, visita nuestras dependencias.</li>
+        <h1>2005</h1>
+        <li>Se inaugurá el nuevo edificio en Iquique 230. Población Libertad ante la presencia del Ministro de Educación Don Sergio Bitar.</li>
+        <h1>2016</h1>
+        <li>Cesa sus funciones y se jubila don Jorge Águila Silva</li>
+        <li>En marzo, asume como Directora del Establecimiento, Sra Rosalía Ulloa Uribe</li>
+        <li>Se oficializa el Himno de nuestro Establecimiento, letra y música de Don Héctor López Barrientos</li>
+        <li>Se publica el primer material en LSCH "Pueblos Originarios de Chile"</li>
+        <h1>2017</h1>
+        <li>Creación de portal web http://www.elibertad.cl junto a sus redes sociales respectivas.</li><img src="" alt="">
+      </div>
+      <article><img src="/img/historia/img_escuela.jpg" alt="">
+        <h1>Reseña Histórica Escuela Libertad</h1>
+        <p>Los inicios de la Escuela Libertad de Puerto Montt se remontan a Marzo de 1972, año en que inicia sus actividades como anexo de la Escuela N° 82 en la población Panamericana, calle Magallanes esquina San Luis. Para ese entonces, el inmueble contaba con cuatro salas de clases y una dotación docente de seis profesores, incluido el director, cargo ejercido por el Sr. Ignacio Álvarez Pérez.</p>
+        <p>Las gestiones del Director Provincial de Educación de aquellos años para la creación de una nueva Escuela ante el Ministerio de Educación tienen buenos frutos. El 17 de Mayo de 1972 la firma del Decreto N° 14.175 crea la Escuela N° 96 en la Comuna de Puerto Montt. Para el año 1973 la Escuela ya funcionaba con 12 cursos en tres jornadas. Al año siguiente se construyen dos nuevas salas, cuestión que permite desarrollar las actividades del establecimiento en dos jornadas.</p>
+        <p>Cuatro años más tarde, en Marzo de 1977, cuando se le asigna un nuevo local, esta vez ubicado en calle Avelino Bravo, dependencia con ocho salas, cocina, y baños para alumnos y profesores. Este nuevo local permitió atender alumnos de Kinder a Séptimo básico, aumentando también el personal docente.</p>
+        <p>
+          Ya en 1978, se completa el ciclo básico, se efectúa la primera licenciatura, y se le asigna la denominación de Escuela F N° 735.
+          Pasarán casi diez años para que en 1987 asuma como Director del establecimiento el Sr. Jorge Águila Silva, quien encuentra la unidad educativa con 14 cursos, un Kinder y un grupo diferencial. Al año siguiente, se publica el decreto N° 15 que permite a las escuela “periféricas” de las ciudades crear innovaciones curriculares emergentes, cuyo fin era la habilitación laboral. Hasta ese momento, la Escuela impartía un curriculo que correspondía al Plan Común Nacional, sin embargo, este no satisfacía las expectativas futuras de los alumnos y motivaba una gran deserción escolar. Es por ello que en 1989, la Escuela se acoge a este nuevo decreto , creando dos talleres para el segundo ciclo: Electromecánica y Corte y Confección. Sumándose cuatro años más tarde, en 1993, el Taller de Tecnología en Madera.
+        </p>
+        <p>
+          Este último año, no sólo trae una gran innovación curricular para la Escuela, también es el año en que recibe una nueva y última denominación que la seguirá hasta el día de hoy: “Escuela Libertad”.
+          A partir del año 2000, con la Reforma educacional en marcha y aprobados por el Ministerio de Educación, la Escuela incorpora definitivamente en su curriculum para el segundo ciclo sus Planes y Programas propios en el sector Teconológico, con tres subsectores: Electromecánica Básica, Corte y Confección, Tecnología en Madera, aumentando significativamente su matriz curricular y entregando de esta manera más oportunidades a sus educandos y con una clara y decida orientación técnica, que es lo que señala la Misión de la Escuela.
+        </p>
+        <p>A fines de los años noventa, se inicia la gestión para construir una nueva Escuela que satisfaga las necesidades de la comunidad educativa. La perseverancia y tesón del Sr. Jorge Águila Silva, quién golpeó las puertas e insistió a las autoridades locales y regionales de llevar a cabo este proyecto de construir una escuela moderna y funcional al bienestar de alumnos y comunidad educativa, tiene grandes efectos.</p>
+        <p>Es así como en el año 2004 se inicia la construcción del edificio que a mediados del mismo año recibiría la visita inspectiva del entonces Presidente de la República Ricardo Lagos Escobar. Tras un año de espera, el establecimiento se inaugura con presencia del Ministro de Educación de aquella época don Sergio Bitar, creándose también durante el transcurso del mismo año el Grupo Diferencial, iniciando tres años después el PIE (Programa de Integración Escolar) según Decreto Exento 170.</p>
+        <p>A partir del segundo semestre del 2015 la JEC pre-básica. El día de hoy la Escuela Libertad atiende aproximadamente 460 alumnos, distribuidos en 18 cursos de Pre-kínder a Octavo año Básico, catalogada como Escuela Autónoma por sus buenos resultados en el Sistema de Medición de la Calidad de la Educación SIMCE, que realiza anualmente el Ministerio de Educación.</p>
+      </article>
+      <div class="historia__pic"><a href="#img1"><img src="/img/historia/001.png" alt=""></a><a href="#img2"><img src="/img/historia/002.png" alt=""></a><a href="#img3"><img src="/img/historia/003.png" alt=""></a><a href="#img4"><img src="/img/historia/004.png" alt=""></a><a href="#img6"><img src="/img/historia/006.PNG" alt=""></a><a href="#img5"><img src="/img/historia/005.png" alt=""></a></div>
+    </div>
+    <footer>
+      <div class="direccion"><span class="icon-compass"></span>
+        <p></p>
+        <h1>Direccion: Iquique 230, Población Libertad - Puerto Montt
+          <p></p>
+        </h1>
+      </div>
+      <div class="telefono"><span class="icon-phone"></span>
+        <p></p>
+        <h1>Telefono : 65 2 484525 </h1>
+        <p></p>
+      </div>
+      <div class="mail"><span class="icon-inbox"></span>
+        <h1>libertad@escuelas.dempuertomontt.cl</h1>
+      </div><span class="icon-facebook-official"></span><span class="icon-youtube-square"></span>
+    </footer>
+  </body>
+</html>

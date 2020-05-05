@@ -1,0 +1,52 @@
+/*Correspondiente a barra de Index*/
+/*Probando SASS*/
+@font-face {
+  font-family: Josefin_Reg;
+  src: url(../fonts/Josefin_Sans/JosefinSans-Regular.ttf); }
+
+@font-face {
+  font-family: Open;
+  src: url(../fonts/open_sans/OpenSans-Regular.ttf); }
+
+/** Barr Nav 2 **/
+body#portada nav ul:nth-child(1) {
+  border-top: 1px solid orange;
+  border-left: 1px solid orange;
+  border-right: 1px solid orange;
+  border-bottom: 2px solid #333333;
+  padding: 12px 3px; }
+
+.box_one {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 100px; }
+
+.box_one h1 {
+  font-family: Josefin_reg;
+  font-size: 50px;
+  color: #1582cd;
+  z-index: 100;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-weight: 100; }
+
+.box_one h1 span {
+  font-family: Josefin_reg;
+  font-size: 50px;
+  color: #1582cd;
+  z-index: 100;
+  color: #f8f11f;
+  font-weight: 100; }
+
+.box_two {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 100px; }
+
+/** Find de barra Nav2**/

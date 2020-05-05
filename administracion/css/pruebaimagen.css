@@ -1,0 +1,5 @@
+body { height: 100%; background-color: orangered; }
+
+.caja { position: absolute; height: 480px; width: 720px; background-color: black; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); overflow: hidden; }
+
+.caja img { display: -webkit-box; display: -ms-flexbox; display: flex; position: relative; height: 480px; align-text: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }

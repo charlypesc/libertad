@@ -1,0 +1,69 @@
+/*menu*/
+
+
+
+header #subheader nav {
+    width: 59%;
+    position: relative;
+    float:left;
+    text-align: right;
+    margin-top: -10px;
+    
+}
+header #subheader nav ul{
+    display: inline;
+    width: auto;
+    height: auto;
+}
+    
+header #subheader nav ul li{
+    display:inline;
+          
+    
+}
+
+
+header #subheader nav ul li a {
+          color:#1582cd;
+          font-weight:bolder;
+          
+          
+          margin-left: 0px;
+          font-size: 24px;
+          text-decoration: none;
+          list-style: none;
+          margin-right: 2px;
+          padding-right: 5px;
+          font-family:Josefin_reg;
+          
+    
+}
+
+header #subheader nav ul li a span {
+    color:#f8f11f;
+    margin-left: 0px;
+          
+    font-size: 24px;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 2px;
+    padding-right: 5px;
+    font-family:Josefin_reg;
+    
+}
+
+header #subheader nav ul li a span:hover {
+    color:white;
+    text-decoration: none;
+}
+
+header #subheader nav ul li a:hover {
+    color:white;
+    text-decoration: none;
+    
+}
+
+}
+
+
+/*FIN MENU*/

@@ -1,0 +1,163 @@
+@import url(barra_nav_2.css);
+@import url(footer.css);
+
+
+@font-face{
+    font-family: Josefin_Reg;
+    src: url(../fonts/Josefin_Sans/JosefinSans-Regular.ttf);
+}
+
+*{
+   padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+#wrap {
+          position: relative;
+          max-width:1024px;
+          height: auto;
+          width: auto;
+          box-shadow: 10px 30px 50px #d1cfcd;
+          margin: auto;
+          top:-100px;
+          
+}
+.cabenoticia {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin-bottom: 15px;
+}
+#noticias_nav {
+          position: relative;
+          width: 100%;
+          height: auto;
+}
+
+
+body{
+          font-family: josefin_reg;
+          width: 100%;
+          margin: auto;
+}
+
+h1 {
+          font-family: ARIAL;
+          font-size: 30px;
+          margin: 7px 0px;
+          color: #444444;
+          margin-left: 5px;
+}
+h3 {
+          font-size: 15px;
+          margin-top: 12%;
+          color: dimgrey;
+          margin-left: 10px;
+          font-weight: 500;
+          
+}
+
+#noticia {
+          position: relative;
+          display: inline;
+          
+}
+
+#noticia h1 {
+          font-family: open;
+          font-size: 20px;
+          }
+#noticia h2 {
+          font-family: open;
+          font-size: 14px;
+          color: #d1d1d1;
+          margin-top: 2px;
+          margin-left: 12px;
+          
+}
+.epigrafenoticia {
+          position: relative;
+          width: 100%;
+          height: 400px;
+          overflow: hidden;
+          
+          
+          
+          
+}
+#noticia .epigrafenoticia h2 {
+          position: absolute;
+          bottom: 10px;
+          color: rgba(255,255,255,0.8);
+          font-size: 12px;
+          
+}
+#noticia .boxuno {
+          position: relative;
+          float: left;
+          width: 55%;
+          
+          
+}
+#noticia .cajaimg {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          width: auto;
+          height: auto;
+}
+#noticia .cajaimg img {
+          width: 4px;       
+}
+#noticia .boxdos {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 40%;
+}
+
+#noticia .boxuno__txt p {
+          margin-bottom:5px;
+}
+
+#noticia p {
+
+          width: 59%%;          
+          font-size: 18px;
+          text-align: center;
+          text-align: left;
+          margin-left: 10px;
+          margin-bottom: 50px;
+          margin-top: 20px;
+          color:#656464;
+          
+}
+
+#noticia .contenedorfoto {
+          width: 100%;
+          height: 400px;
+          overflow: hidden;
+}
+
+#noticias .fotos {
+          width: 40%;
+}
+
+
+#noticia p span {
+          font-size: 40px;
+}
+
+#noticia img {
+          width: 100%;
+}
+#noticia {
+          display: flex;
+          align-content: center;
+          justify-content:;
+          flex-direction: column;
+          
+}

@@ -1,0 +1,327 @@
+@font-face {
+  font-family: Josefin_Reg;
+  src: url(../fonts/Josefin_Sans/JosefinSans-Regular.ttf); }
+
+@font-face {
+  font-family: HandSign;
+  src: url(../fonts/Hand/Handsign.ttf); }
+
+@font-face {
+  font-family: American;
+  src: url(../fonts/American/american.ttf); }
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  * body {
+    width: 100%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.0009);
+    /*Corresponde a fichas*/ }
+    * body header {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      position: relative;
+      width: 100%;
+      height: 150px;
+      margin: auto;
+      padding: 20px 20px;
+      background: #fff;
+      margin-top: 3px;
+      border-bottom: 1px solid #46abfa;
+      border-shadow: 13px 13px; }
+      * body header .logo {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        height: 150px; }
+        * body header .logo img {
+          position: relative;
+          margin-left: 0;
+          height: 100%; }
+      * body header nav {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 70%;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        * body header nav ul {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          position: relative;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          width: auto;
+          list-style: none;
+          margin: 2px 2px;
+          padding: 5px 5px; }
+          * body header nav ul li {
+            margin: 3px; }
+            * body header nav ul li a {
+              font-family: josefin_reg;
+              font-size: 25px;
+              text-decoration: none;
+              color: #47484b; }
+              * body header nav ul li a:hover {
+                color: orangered; }
+      * body header .insignia {
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        height: 150px; }
+        * body header .insignia img {
+          position: relative;
+          margin-left: 0;
+          height: 100%; }
+    * body #wrap {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 90%;
+      margin: auto;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      * body #wrap .mapa img {
+        height: 60%; }
+      * body #wrap .home__titu {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 60%;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-left: 15px; }
+        * body #wrap .home__titu .quest {
+          font-family: Josefin_reg;
+          font-size: 30px;
+          margin-top: 13px;
+          color: #47484b; }
+        * body #wrap .home__titu .menu__dos {
+          margin: 40px 0px; }
+          * body #wrap .home__titu .menu__dos ul {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            text-decoration: none; }
+            * body #wrap .home__titu .menu__dos ul li {
+              display: block;
+              padding: 10px 10px;
+              list-style: none;
+              background: #46abfa;
+              margin: 0px 13px;
+              -webkit-border-radius: 5px 5px;
+              border-radius: 5px 5px; }
+              * body #wrap .home__titu .menu__dos ul li:hover {
+                background: orangered; }
+              * body #wrap .home__titu .menu__dos ul li a {
+                text-decoration: none;
+                color: white;
+                font-family: Josefin_reg;
+                font-size: 20px; }
+        * body #wrap .home__titu img {
+          width: 80%;
+          margin-top: -20; }
+        * body #wrap .home__titu .bienvenida {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          -ms-flex-align: center;
+          align-items: center; }
+          * body #wrap .home__titu .bienvenida h1 {
+            font-family: Josefin_reg;
+            color: #47484b;
+            font-size: 20px; }
+          * body #wrap .home__titu .bienvenida p {
+            font-family: Josefin_reg;
+            color: #47484b;
+            margin: 5px 10px;
+            padding: 10px 10px;
+            width: 100%; }
+      * body #wrap .indios {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 40%;
+        margin-left: 10; }
+        * body #wrap .indios img {
+          width: 20%;
+          height: 20%;
+          z-index: -10; }
+    * body #zona {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      width: 90%; }
+      * body #zona .mapa__zona {
+        margin-left: 20px; }
+        * body #zona .mapa__zona img {
+          height: 75%; }
+      * body #zona .vocabulario {
+        font-family: josefin_reg;
+        margin-left: 10px; }
+        * body #zona .vocabulario .zona__tit {
+          margin: 5px 0px;
+          color: #47484b; }
+          * body #zona .vocabulario .zona__tit h1 {
+            font-size: 25px; }
+        * body #zona .vocabulario .glosario {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          margin-top: 15px; }
+          * body #zona .vocabulario .glosario h2 {
+            color: orange; }
+          * body #zona .vocabulario .glosario li {
+            list-style: none;
+            margin: 10px 0px; }
+          * body #zona .vocabulario .glosario a {
+            text-decoration: none;
+            color: #46abfa;
+            font-size: 20px;
+            font-weight: 400; }
+          * body #zona .vocabulario .glosario .contenido__uno {
+            margin: 0px 25px; }
+          * body #zona .vocabulario .glosario .contenido__dos {
+            margin: 0px 25px; }
+          * body #zona .vocabulario .glosario .contenido__tres {
+            margin: 0px 25px; }
+          * body #zona .vocabulario .glosario .contenido__cuatro {
+            margin: 0px 25px; }
+          * body #zona .vocabulario .glosario .contenido__cinco {
+            margin: 0px 25px; }
+    * body .ficha {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 80%;
+      margin: auto;
+      font-family: josefin_reg;
+      margin: 20px 40px; }
+      * body .ficha .ficha__content_uno {
+        width: 60%; }
+        * body .ficha .ficha__content_uno h1 {
+          width: 100%;
+          margin: 15px 0px;
+          font-family: handsign;
+          font-size: 40px;
+          color: #47484b; }
+        * body .ficha .ficha__content_uno h2 {
+          width: 100%;
+          margin: 15px 0px;
+          font-family: American;
+          font-size: 40px;
+          color: #46abfa;
+          text-shadow: 1px 6px 6px; }
+        * body .ficha .ficha__content_uno p {
+          width: 100%;
+          margin: 15px 0px;
+          font-family: American;
+          font-size: 20px;
+          color: #47484b; }
+        * body .ficha .ficha__content_uno img {
+          width: 50%; }
+      * body .ficha .ficha__content2 {
+        width: 40%; }
+        * body .ficha .ficha__content2 video {
+          position: relative;
+          width: 100%;
+          top: 20%;
+          right: -20%; }
+      * body .ficha .ficha__content_especial_uno {
+        width: 100%; }
+        * body .ficha .ficha__content_especial_uno h1 {
+          width: 100%;
+          margin: 15px 0px;
+          font-family: handsign;
+          font-size: 40px;
+          color: #47484b; }
+        * body .ficha .ficha__content_especial_uno h2 {
+          width: 100%;
+          margin: 15px 0px;
+          font-family: American;
+          font-size: 40px;
+          color: #46abfa;
+          text-shadow: 1px 6px 6px; }
+        * body .ficha .ficha__content_especial_uno p {
+          width: 100%;
+          margin: 15px 0px;
+          font-family: American;
+          font-size: 20px;
+          color: #47484b; }
+        * body .ficha .ficha__content_especial_uno img {
+          width: 90%; }
+      * body .ficha .ficha__content_especial video {
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 200px; }

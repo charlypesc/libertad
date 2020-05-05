@@ -1,0 +1,255 @@
+@import url(barra_nav_2.css);
+@import url(footer.css);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+#content {
+  width: 80%;
+  margin: auto;
+  padding: 20px 0px;
+  -webkit-box-shadow: 10px 30px 50px #d1cfcd;
+  box-shadow: 10px 30px 50px #d1cfcd;
+  margin-bottom: 60px;
+  font-family: josefin_reg; }
+
+#content p {
+  margin: 30px 20px;
+  font-size: 16px;
+  text-indent: 10px; }
+
+body {
+  min-width: 650px; }
+
+.peicabecera h1 {
+  font-family: josefin_reg;
+  color: dodgerblue;
+  font-size: 30px;
+  margin-left: 5px; }
+
+.box p {
+  font-family: josefin_reg;
+  color: 555555;
+  font-weight: 500;
+  margin: 10px 0px;
+  margin: 15px 0px 20px 20px;
+  text-indent: 10px; }
+
+.basicafun h2 {
+  font-family: josefin_reg;
+  font-size: 20px;
+  color: #444444;
+  font-weight: 300;
+  margin: 15px 0px 20px 20px; }
+
+#contentcero p {
+  font-family: josefin_reg;
+  color: #555555;
+  font-weight: 500;
+  margin: 10px 0px;
+  margin: 15px 0px 20px 20px;
+  text-indent: 10px; }
+
+#contentcero h2 {
+  font-family: josefin_reg;
+  font-size: 20px;
+  color: #444444;
+  font-weight: 300;
+  margin: 15px 0px 20px 20px; }
+
+.sellos h1 {
+  margin-left: 10px;
+  margin-top: 4px; }
+
+.vision h1 {
+  margin-left: 10px;
+  margin-top: 4px; }
+
+.mision h1 {
+  margin-left: 10px;
+  margin-top: 4px; }
+
+.sellos, .vision, .mision, h2 {
+  font-family: josefin_reg;
+  font-size: 20px;
+  color: dodgerblue;
+  font-weight: 300;
+  margin: 15px 10px 20px 20px; }
+
+h3 {
+  font-family: josefin_reg;
+  font-size: 25px;
+  color: #444444;
+  font-weight: 300;
+  margin: 15px 0px 20px 20px; }
+
+.peicabecera {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 400px;
+  margin-top: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  min-width: 750px; }
+
+#contentcero {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.mision {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 30%;
+  border: 1px solid orange;
+  -webkit-border-radius: 10px 10px;
+  border-radius: 10px 10px;
+  padding: 2px 2px;
+  margin-right: 20px; }
+
+.vision {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 30%;
+  border: 1px solid orange;
+  -webkit-border-radius: 10px 10px;
+  border-radius: 10px 10px;
+  margin-right: 20px;
+  padding: 2px 2px; }
+
+.sellos {
+  position: relative;
+  width: 30%;
+  border: 1px solid orange;
+  -webkit-border-radius: 10px 10px;
+  border-radius: 10px 10px;
+  padding: 2px 2px;
+  margin-right: 20px;
+  margin-left: 25px; }
+
+.reglamentointcab {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 10px; }
+
+.reglamentointcab h1 {
+  font-family: josefin_reg;
+  font-size: 25px;
+  color: dodgerblue;
+  font-weight: bold;
+  margin-left: 5px; }
+
+.reglamentointcab p {
+  font-family: josefin_reg;
+  color: #555555;
+  font-weight: 500;
+  margin: 10px 0px;
+  text-indent: 10px; }
+
+.reglamentointcabp {
+  font-family: josefin_reg;
+  color: 555555;
+  font-weight: 500;
+  text-indent: 10px; }
+
+.reglamentointcabp p {
+  margin: 10px 10px;
+  font-size: 16px; }
+
+.pei__cab_pdf {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0px 0px 0px 0px; }
+  .pei__cab_pdf h1 {
+    color: dodgerblue;
+    font-weight: bold;
+    margin: 5px 5px 5px; }
+
+.pei_organigrama {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .pei_organigrama h1 {
+    margin: 5px 10px 5px;
+    color: dodgerblue;
+    font-weight: bold; }

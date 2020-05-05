@@ -1,0 +1,14 @@
+@import url(barra_nav_2.css);
+@import url(footer.css);
+/*Variables*/
+* { padding: 0; margin: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.wrap { width: 80%; margin: auto; font-family: josefin_reg; }
+
+.wrap .box_uno { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; align-item: center; margin: 10px 0px 0px; margin-top: 20px; }
+
+.wrap .box_uno h1 { margin-left: 5px; color: #1582cd; }
+
+.wrap article h2 { margin: 10px 20px; }
+
+.wrap article p { margin: 10px 15px; }
